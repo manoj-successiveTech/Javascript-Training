@@ -1,0 +1,137 @@
+2nd June - Assignment 1
+
+-> Twelve Factor app
+-> Atomic Design
+-> Git and Github
+-> Git Config
+-> .gitignore
+
+
+
+anoj.kumar@manojkumarss-448:~/Daily_Task_assignment/javascript_training$ git init
+Initialized empty Git repository in /home/manoj.kumar/Daily_Task_assignment/javascript_training/.git/
+manoj.kumar@manojkumarss-448:~/Daily_Task_assignment/javascript_training$ git init
+Reinitialized existing Git repository in /home/manoj.kumar/Daily_Task_assignment/javascript_training/.git/
+manoj.kumar@manojkumarss-448:~/Daily_Task_assignment/javascript_training$ git add README.md
+manoj.kumar@manojkumarss-448:~/Daily_Task_assignment/javascript_training$ git commit -m "first commit"
+[master (root-commit) 82c4436] first commit
+ Committer: Manoj Kumar <manoj.kumar@manojkumarss-448.successivetech.com>
+Your name and email address were configured automatically based
+on your username and hostname. Please check that they are accurate.
+You can suppress this message by setting them explicitly. Run the
+following command and follow the instructions in your editor to edit
+your configuration file:
+
+    git config --global --edit
+
+After doing this, you may fix the identity used for this commit with:
+
+    git commit --amend --reset-author
+
+ 1 file changed, 0 insertions(+), 0 deletions(-)
+ create mode 100644 README.md
+manoj.kumar@manojkumarss-448:~/Daily_Task_assignment/javascript_training$ git branch -M main
+manoj.kumar@manojkumarss-448:~/Daily_Task_assignment/javascript_training$ git remote add origin https://github.com/manoj-successiveTech/Javascript-Training.git
+manoj.kumar@manojkumarss-448:~/Daily_Task_assignment/javascript_training$ git push -u origin main
+Enumerating objects: 3, done.
+Counting objects: 100% (3/3), done.
+Writing objects: 100% (3/3), 227 bytes | 227.00 KiB/s, done.
+Total 3 (delta 0), reused 0 (delta 0)
+To https://github.com/manoj-successiveTech/Javascript-Training.git
+ * [new branch]      main -> main
+Branch 'main' set up to track remote branch 'main' from 'origin'.
+manoj.kumar@manojkumarss-448:~/Daily_Task_assignment/javascript_training$ 
+manoj.kumar@manojkumarss-448:~/Daily_Task_assignment/javascript_training$ git add .
+manoj.kumar@manojkumarss-448:~/Daily_Task_assignment/javascript_training$ git push origin main
+Everything up-to-date
+manoj.kumar@manojkumarss-448:~/Daily_Task_assignment/javascript_training$ git add .
+manoj.kumar@manojkumarss-448:~/Daily_Task_assignment/javascript_training$ git push origin -u main
+Branch 'main' set up to track remote branch 'main' from 'origin'.
+Everything up-to-date
+manoj.kumar@manojkumarss-448:~/Daily_Task_assignment/javascript_training$ git add .
+manoj.kumar@manojkumarss-448:~/Daily_Task_assignment/javascript_training$ git commit -m "changes added"
+manoj.kumar@manojkumarss-448:~/Daily_Task_assignment/javascript_training$ git add .
+manoj.kumar@manojkumarss-448:~/Daily_Task_assignment/javascript_training$ git commit -m "changes added"
+[main 3332085] changes added
+ Committer: Manoj Kumar <manoj.kumar@manojkumarss-448.successivetech.com>
+Your name and email address were configured automatically based
+on your username and hostname. Please check that they are accurate.
+You can suppress this message by setting them explicitly. Run the
+following command and follow the instructions in your editor to edit
+your configuration file:
+
+    git config --global --edit
+
+After doing this, you may fix the identity used for this commit with:
+
+    git commit --amend --reset-author
+
+ 1 file changed, 1 insertion(+)
+manoj.kumar@manojkumarss-448:~/Daily_Task_assignment/javascript_training$ git push origin main
+Enumerating objects: 5, done.
+Counting objects: 100% (5/5), done.
+Writing objects: 100% (3/3), 297 bytes | 297.00 KiB/s, done.
+Total 3 (delta 0), reused 0 (delta 0)
+To https://github.com/manoj-successiveTech/Javascript-Training.git
+   82c4436..3332085  main -> main
+manoj.kumar@manojkumarss-448:~/Daily_Task_assignment/javascript_training$ git checkout -b develop
+manoj.kumar@manojkumarss-448:~/Daily_Task_assignment/javascript_training$ git checkout -b develop
+Switched to a new branch 'develop'
+manoj.kumar@manojkumarss-448:~/Daily_Task_assignment/javascript_training$ git push origin -u develop
+Total 0 (delta 0), reused 0 (delta 0)
+remote: 
+remote: Create a pull request for 'develop' on GitHub by visiting:
+remote:      https://github.com/manoj-successiveTech/Javascript-Training/pull/new/develop
+remote: 
+To https://github.com/manoj-successiveTech/Javascript-Training.git
+ * [new branch]      develop -> develop
+Branch 'develop' set up to track remote branch 'develop' from 'origin'.
+manoj.kumar@manojkumarss-448:~/Daily_Task_assignment/javascript_training$ git status
+On branch develop
+Your branch is up to date with 'origin/develop'.
+
+nothing to commit, working tree clean
+manoj.kumar@manojkumarss-448:~/Daily_Task_assignment/javascript_training$ 
+manoj.kumar@manojkumarss-448:~/Daily_Task_assignment/javascript_training$ git checkout -b features/assignment-1
+Switched to a new branch 'features/assignment-1'
+manoj.kumar@manojkumarss-448:~/Daily_Task_assignment/javascript_training$ git status
+On branch features/assignment-1
+nothing to commit, working tree clean
+manoj.kumar@manojkumarss-448:~/Daily_Task_assignment/javascript_training$ git add .
+manoj.kumar@manojkumarss-448:~/Daily_Task_assignment/javascript_training$ git commit -m "assignment completed"
+[features/assignment-1 161e21b] assignment completed
+ Committer: Manoj Kumar <manoj.kumar@manojkumarss-448.successivetech.com>
+Your name and email address were configured automatically based
+on your username and hostname. Please check that they are accurate.
+You can suppress this message by setting them explicitly. Run the
+following command and follow the instructions in your editor to edit
+your configuration file:
+
+    git config --global --edit
+
+After doing this, you may fix the identity used for this commit with:
+
+    git commit --amend --reset-author
+
+ 4 files changed, 225 insertions(+), 1 deletion(-)
+ create mode 100644 12_factor_app.md
+ delete mode 100644 README.md
+ create mode 100644 atomic_design.md
+ create mode 100644 git_overview.md
+manoj.kumar@manojkumarss-448:~/Daily_Task_assignment/javascript_training$ git push origin -u features/assignment-1
+Enumerating objects: 6, done.
+Counting objects: 100% (6/6), done.
+Delta compression using up to 8 threads
+Compressing objects: 100% (5/5), done.
+Writing objects: 100% (5/5), 6.36 KiB | 6.36 MiB/s, done.
+Total 5 (delta 0), reused 0 (delta 0)
+remote: 
+remote: Create a pull request for 'features/assignment-1' on GitHub by visiting:
+remote:      https://github.com/manoj-successiveTech/Javascript-Training/pull/new/features/assignment-1
+remote: 
+To https://github.com/manoj-successiveTech/Javascript-Training.git
+ * [new branch]      features/assignment-1 -> features/assignment-1
+Branch 'features/assignment-1' set up to track remote branch 'features/assignment-1' from 'origin'.
+manoj.kumar@manojkumarss-448:~/Daily_Task_assignment/javascript_training$ ^C
+manoj.kumar@manojkumarss-448:~/Daily_Task_assignment/javascript_training$ ^C
+manoj.kumar@manojkumarss-448:~/Daily_Task_assignment/javascript_training$ 
