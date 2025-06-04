@@ -7,3 +7,4 @@
 5. Write a function expression that takes in two numbers and returns their sum.
 6. Write a function expression that takes in a number and returns true if it's even and false if it's odd.
 7. All of the above questions from 3-6 needs to be done with arrow functions also
+8. This is the questions assignment.
