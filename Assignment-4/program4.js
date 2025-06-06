@@ -1,16 +1,9 @@
-// 4. Write a program to convert given string to upperCase OR lowerCase
+// 4. Write a program to convert given string to upperCase OR lowerCase.
 
-function convertCase(str, toUpperCase = true) 
+function convertCase(str, toUpper) 
 {
-    if (toUpperCase) {
-        return str.toUpperCase(); // Convert to uppercase
-    } else {
-        return str.toLowerCase(); // Convert to lowercase
-    }
-}   
-// Example usage
-let inputString = "Hello World";
-let upperCaseString = convertCase(inputString, true);
-let lowerCaseString = convertCase(inputString, false); 
-console.log("Uppercase: ", upperCaseString); // Output: "HELLO WORLD"
-console.log("Lowercase: ", lowerCaseString); // Output: "hello world" 
+  return toUpper ? str.toUpperCase() : str.toLowerCase();
+}
+
+console.log("The output upperCase is ::" ,convertCase("Hello World", true));  // Output: "HELLO WORLD"
+console.log("The output lowercase is ::" ,convertCase("Hello World", false)); // Output: "hello world"
