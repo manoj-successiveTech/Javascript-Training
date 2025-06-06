@@ -8,7 +8,7 @@ let num1 = getRandomInt(1, 10);
 let num2;
 
 do {
-  num2 = getRandomInt(1, 10);
+  num2 = getRandomInt(1,10);
 } while (num2 === num1);
 
 console.log("First random number:", num1);

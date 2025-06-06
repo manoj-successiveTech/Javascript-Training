@@ -1,27 +1,14 @@
 // Q6. Write a function expression that takes in a number and returns true if it's even and false if it's odd.
 
-    let checkEven=function (num)
-    {
-        if(num%2===0){
-            return true;
-        }
-        else
-        {
-            return false
-        }
-            
-    }
+function checkEven(num) {
+    return num % 2 === 0;
+}
+let input = window.prompt("Please enter a number:");  //enter a number using prompt()
+let num = Number(input);                          // Convert the input to a number
 
-    let num=5;
-    
-    // Check if the number is even or odd using the function
-
-    if(checkEven(num)==true)
-
-        {
-        console.log("The number is Even");
-        }
-
-    else{
-        console.log("The number is Odd");
-    }
+// Check if the number is even or odd
+if (checkEven(num)) {
+    window.alert("The number is Even");
+} else {
+    window.alert("The number is Odd");
+}
