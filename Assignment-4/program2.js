@@ -4,7 +4,7 @@ function reverseWord(str)
 {
   return str
     .split(' ')
-    .map(word => word.split('').reverse().join(''))
+    .map(word => word.split('').reverse().join(''))   // using arrow function
     .join(' ');
 }
 
