@@ -1,4 +1,4 @@
-// Write a program to print all even number first and then all odd numbers
+// Write a program to print all even number first and then all odd numbers(Two for loop used)
 
 
 function evenOdd(arr) {
