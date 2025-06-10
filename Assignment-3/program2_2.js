@@ -7,7 +7,8 @@
 
 */
 
-function displayNoPattern2() {
+function displayNoPattern2() 
+{
     let pattern = '';
     for (let i = 1; i <= 4; i++) {
         for (let j = 1; j <= i; j++) {
@@ -16,4 +17,6 @@ function displayNoPattern2() {
         pattern += '\n';
     }
     return pattern;
-}console.log(displayNoPattern2()); // Output the pattern
+}
+console.log("The Final output is ::"); 
+console.log(displayNoPattern2()); // Output the pattern

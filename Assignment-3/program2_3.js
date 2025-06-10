@@ -37,4 +37,5 @@ function displayNoPattern()
 
     return pattern;
 }
+console.log("The Final output is ::"); 
 console.log(displayNoPattern()); // Output the pattern

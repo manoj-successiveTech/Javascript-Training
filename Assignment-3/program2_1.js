@@ -19,4 +19,6 @@ function displayNoPattern()
         pattern += '\n';
     }
     return pattern;
-}console.log(displayNoPattern()); 
+}
+console.log("The Final output is ::"); 
+console.log(displayNoPattern()); 

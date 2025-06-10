@@ -2,7 +2,7 @@
 
 function convertCase(str, toUpper) 
 {
-  return toUpper ? str.toUpperCase() : str.toLowerCase();
+  return toUpper ? str.toUpperCase() : str.toLowerCase(); // ternary operator - ?
 }
 
 console.log("The output upperCase is ::" ,convertCase("Hello World", true));  // Output: "HELLO WORLD"

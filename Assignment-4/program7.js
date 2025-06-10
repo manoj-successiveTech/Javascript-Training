@@ -6,7 +6,8 @@ function findDuplicateIndex(arr)
   let duplicates = [];
 
   arr.forEach((item, index) => {
-    if (seen[item] !== undefined) {
+    if (seen[item] !== undefined) 
+    {
       duplicates.push(index);
     } else {
       seen[item] = index;

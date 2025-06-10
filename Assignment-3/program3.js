@@ -19,11 +19,13 @@ function displayDiamondPattern() {
     for (let i = 1; i <= n; i++) 
     {
         // Print leading spaces
-        for (let j = n; j > i; j--) {
+        for (let j = n; j > i; j--) 
+        {
             pattern += ' ';
         }
         // Print stars
-        for (let k = 1; k <= i; k++) {
+        for (let k = 1; k <= i; k++) 
+        {
             pattern += '* ';
         }
         pattern += '\n';
@@ -48,5 +50,6 @@ function displayDiamondPattern() {
 }
 
 // Add this line to display the pattern in the console:
+console.log("the final output is::")
 console.log(displayDiamondPattern()); // console.log(displayDiamondPattern());
    

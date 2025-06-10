@@ -32,6 +32,7 @@ function calculator(a, b, operator)
 }
 
 // Example usage:
+console.log("The final output of respective operations is::");
 console.log("The addition of a and b::",calculator(15, 5, '+')); //output addition:: 15
 console.log("The subtraction of a and b is::", calculator(10, 5, '-')); // output subtraction:: 5
 console.log("The multiplication of a and b is::", calculator(10, 5, '*')); // output multiplication::50
