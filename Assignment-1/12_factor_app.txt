@@ -1,4 +1,4 @@
---------The Twelve-factor app Principle/ Methology-------
+--------The Twelve-factor app Principle/ Methodology-------
 
 ->The Twelve-factor app is a set of 12 principles or best practices for building web applications, which nowadays are more commonly known as Software-As-A-Service (SAAS) applications. These principles help us to create the applications that use declarative programming for automation of setup which in turns reduces the development time and cost of the projects .
 
