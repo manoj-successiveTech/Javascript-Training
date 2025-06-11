@@ -1,7 +1,7 @@
 // 2. Array of people (each person is an object)
 const people = [
   { name: "Manoj", age: 25 },
-  { name: "John", age: 26 },
+  { name: "Vishal", age: 26 },
   { name: "Anany", age: 20 }
 ];
 

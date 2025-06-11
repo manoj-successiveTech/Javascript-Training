@@ -1,6 +1,6 @@
 //1. 1. Write a program to iterate over object.
 
-const person = 
+let person = 
 {
   name: "Manoj Kumar",
   age: 25,
