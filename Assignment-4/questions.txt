@@ -2,7 +2,7 @@
 
 Description
 
-1. Write a program to remove duplicate charecters from a string ("Hello Yellow" => "Helo Yw")
+1. Write a program to remove duplicate characters from a string ("Hello Yellow" => "Helo Yw")
 
 2.Write a program to reverse a string ("Hello John" => "olleH nhoJ")
 
@@ -16,7 +16,7 @@ Description
 
 7. Write a program to find index of duplicate elements in an array
 
-8. Write a program to remove dupliacte elements from an array
+8. Write a program to remove duplicate elements from an array
 
 9. Write a program to find the last duplicate index in an array
 
