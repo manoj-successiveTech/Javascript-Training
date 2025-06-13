@@ -5,6 +5,7 @@
 function getUserInfo()  // Function to get user information //
 {
     // Prompt user for their name, age, and phone number //
+    
     const name = window.prompt("Please enter your name:");
     
     const age = window.prompt("Please enter your age:");

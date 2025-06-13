@@ -13,4 +13,5 @@ function fibonacciSeries(n)
     }
     return fibSeries;
 
-}console.log("The Factorial series", fibonacciSeries(10)); // showing output 
+}
+console.log("The Factorial series", fibonacciSeries(10)); // showing output 

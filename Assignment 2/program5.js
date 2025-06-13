@@ -1,10 +1,10 @@
 // Write a function expression that takes in two numbers and returns their sum.
 
-let sumNum = function(num1, num2) {
+let sumNum = function(num1, num2) 
+{
     // Taking the sum of the two numbers
     return num1 + num2;
 }
-
 
 let num1 = Number(window.prompt("Please enter the first number:"));
 let num2 = Number(window.prompt("Please enter the second number:"));

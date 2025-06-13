@@ -7,6 +7,7 @@ let input = window.prompt("Please enter a number:");  //enter a number using pro
 let num = Number(input);                          // Convert the input to a number
 
 // Check if the number is even or odd
+
 if (checkEven(num)) {
     window.alert("The number is Even");
 } else {

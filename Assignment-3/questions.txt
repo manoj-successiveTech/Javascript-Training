@@ -1,0 +1,56 @@
+--Assignment 3 (4th June)------
+
+---- Note:- all the function and variable should be in naming convention.
+
+
+1. Write a program to perform functionality of a calculator (add,sub,multiply,divide)
+
+2. Write a program to display following output as shown in figure.
+
+using nested loop
+screen
+using string
+
+1
+2 3
+4 5 6
+7 8 9 10
+
+1
+2 2
+3 3 3
+4 4 4 4
+
+1 2 3 4 5
+1 2 3 4
+1 2 3
+1 2
+1
+1 2
+1 2 3
+1 2 3 4
+1 2 3 4 5
+
+3. Write a program to display Diamond Pattern
+
+        *
+      *  *
+    *  *  *
+  *  *  *  *
+*  *  *  *  *
+  *  *  *  *
+    *  *  *
+     *  *
+       *
+
+4. Write a program to print all even number first and then all odd numbers.
+
+5. Write a program to print all even number first and then all odd numbers using only one iteration - updates take  -one loop  ( by amar sir) 
+
+6. Write a program to display prime numbers from 1 to 50  - 
+
+7. Write a program to display the twice of a number starting from 2 and end at 4096 (2, 4, 8, 16, ..... 4096) - print  the list staring with 2 and making the loop
+
+8. Write a program to display number from 1-20 using all types of loops
+
+9. Write a program to print fibonaaci series  --  can also use in recursion (suggesion).
