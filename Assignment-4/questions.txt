@@ -8,7 +8,7 @@ Description
 
 3. Write a program to give count of variables in a string ("abcabcdabbcc" => "a3b4c4d1")
 
-4. Write a program to convert given string to upperCase OR lowerCase
+4. Write a program to convert given string to upperCase OR lowerCase.
 
 5. Write a program to convert given string in camel case ("hello john doe" => helloJohnDoe)
 

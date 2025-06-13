@@ -1,5 +1,7 @@
 // 5. Write a program to convert given string in camel case ("hello john doe" => helloJohnDoe)
 
+// input mentioned:- string in camel case ("hello john doe" => helloJohnDoe)
+
 function camelCase(str)
 {
   let words = str.split(" "); // Split the string into words

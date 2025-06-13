@@ -10,7 +10,6 @@
 1 2 3
 1 2 3 4
 1 2 3 4 5
-
 */
 
 function displayNoPattern()
@@ -38,4 +37,4 @@ function displayNoPattern()
     return pattern;
 }
 console.log("The Final output is ::"); 
-console.log(displayNoPattern()); // Output the pattern
+console.log(displayNoPattern());        // Output the pattern

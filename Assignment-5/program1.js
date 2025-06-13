@@ -6,6 +6,7 @@ let person =
   age: 25,
   profile: "Trainee"
 };
+
 console.log("The Final output is:: ");
 
 for (let key in person) 

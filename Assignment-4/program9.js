@@ -1,21 +1,24 @@
 // 9. Write a program to find the last duplicate index in an array.
-
 function findLastDuplicateIndex(arr) 
 {
   let seen = new Set();
   let lastIndex = -1;
-
-  for (let i = 0; i < arr.length; i++) 
-  {
-    if (seen.has(arr[i])) 
-    {
+  for (let i = 0; i < arr.length; i++) {
+    if (seen.has(arr[i])) {
       lastIndex = i;
-    } 
-    else {
+    } else {
       seen.add(arr[i]);
     }
   }
   return lastIndex;
 }
 
-console.log("The final result is:: " , findLastDuplicateIndex([1, 2, 3, 2, 4, 3, 5]));  // Output: 5 (last duplicate is 3 at index 5)
+// Taking input from the user
+let input = prompt("Enter array elements separated by commas (e.g- 1,2,3,2,4,3,5):");
+let array = input.split(',').map(item => item.trim());
+
+// Finding the last duplicate index
+let lastDuplicateIndex = findLastDuplicateIndex(array);
+
+// Displaying the result
+alert("The final result is:: " + lastDuplicateIndex);
