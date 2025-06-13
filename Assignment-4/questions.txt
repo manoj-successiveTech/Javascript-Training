@@ -1,0 +1,31 @@
+------Assignment 4 -----------
+
+Description
+
+1. Write a program to remove duplicate characters from a string ("Hello Yellow" => "Helo Yw")
+
+2.Write a program to reverse a string ("Hello John" => "olleH nhoJ")
+
+3. Write a program to give count of variables in a string ("abcabcdabbcc" => "a3b4c4d1")
+
+4. Write a program to convert given string to upperCase OR lowerCase.
+
+5. Write a program to convert given string in camel case ("hello john doe" => helloJohnDoe)
+
+6. Write a program to find sum of an array
+
+7. Write a program to find index of duplicate elements in an array
+
+8. Write a program to remove duplicate elements from an array
+
+9. Write a program to find the last duplicate index in an array
+
+10. Write a program to concatenate an input of array of arrays
+
+11. Write a program to sort an array (bubble sort)
+
+12. Write a program to display intersection of two array
+
+13. Write a program to return inverse of an array
+
+14. Write a program to reverse an array

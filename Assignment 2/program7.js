@@ -21,11 +21,8 @@ console.log("The square of the number is:", square);   // Logging the result
 
 const sumNum = (num1, num2) => num1 + num2;
 
-// Calculate the sum
-let sum = sumNum(10, 20);
-
-// Log the result
-console.log("The sum of the numbers is:", sum);
+let sum = sumNum(10, 20);                       // Calculate the sum
+console.log("The sum of the numbers is:", sum);  // Log the result
 
 
 //6. Arrow function to check if a number is even

@@ -1,0 +1,101 @@
+
+
+---------- Git and Github ,Git configuration --------------
+
+--GIT---
+
+Git:-Git is a version control system. It specifically a distributed version control system (DVCS). 
+It used to track changes in files over time, allowing developers to revert to previous versions, compare changes & collaborate effectively. 
+Git is widely used in software development for managing code, but it can also be used for other types of files. 
+
+
+=> Features  of Git:-
+
+Repository: A folder where Git tracks your project and its history.
+Clone: Make a copy of a remote repository on your computer.
+Stage: Tell Git which changes you want to save next.
+Commit: Save a snapshot of your staged changes.
+Branch: Work on different versions or features at the same time.
+Merge: Combine changes from different branches.
+Pull: Get the latest changes from a remote repository.
+Push: Send your changes to a remote repository.
+
+
+---GITHUB---
+
+GitHub is like a shared online library where you can store your notebook, share it with others, and find other people's notebooks.
+
+GitHub is a code hosting platform that provides tools for version control and collaboration using Git, a distributed version control system. It allows developers to store, share, and manage code, track changes, and collaborate on projects.
+
+GitHub also provides features like pull requests, code review, and issue tracking, making it a popular platform for software development and open-source projects. 
+
+Key Features of Github:-
+
+Git Repository:-A repository is a collection of code files and their history stored on GitHub. 
+
+Branching:-GitHub allows developers to create branches from a repository to work on new features or bug fixes independently without affecting the main codebase. 
+
+Pull Requests:- A pull request allows developers to propose changes to a repository, and others can review and discuss the changes before they are merged into the main branch. 
+
+Issue Tracking:- GitHub provides a way to track and manage issues or bugs reported in a project. 
+
+Code Review:- GitHub facilitates code review by allowing developers to review and comment on changes proposed in pull requests.
+
+
+---Git config-----
+
+git config is used to set configuration variables for your Git environment. n short, git config is how you personalize and fine-tune your Git experience on your local machine.
+
+These configurations can be set at different levels:
+
+System-wide: It applies to all users on your computer.
+Global: It applies to all your Git repositories on your computer (most common for user settings).
+Local: It applies only to a specific Git repository.
+
+Here are some common uses of git config:
+
+Setting your user name and email: This is crucial because every commit you make will be associated with this information.
+-> git config --global user.name "Your Name"
+-> git config --global user.email "your.email@example.com"
+
+
+
+
+------ .gitignore -------
+
+ .gitignore file in Git specifies files and directories that Git should ignore and not track, preventing them from being committed to the repository. This helps keep your repository clean and organized, preventing the inclusion of unnecessary or sensitive files. 
+ 
+ Purpose:
+The primary purpose of a .gitignore file is to instruct Git to ignore certain files and folders during version control. 
+
+How it works:
+You create a plain text file named .gitignore in the root directory of your Git repository. Each line in this file represents a pattern that Git should match against files and directories. 
+
+Benifits of .gitignore file :- 
+
+Keep your repository clean by excluding unnecessary files. 
+Prevent committing sensitive information, such as passwords or API keys. 
+Reduce the size of your repository. 
+Make it easier to collaborate with others on your project. 
+
+ 
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
