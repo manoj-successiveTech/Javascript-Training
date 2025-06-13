@@ -1,5 +1,5 @@
 // 2.Write a program to reverse a string ("Hello John" => "olleH nhoJ") 
-
+// input mentioned :- string ("Hello John" => "olleH nhoJ") 
 function reverseWord(str) 
 {
   return str

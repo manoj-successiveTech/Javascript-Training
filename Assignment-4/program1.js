@@ -1,5 +1,5 @@
 // 1. Write a program to remove duplicate characters from a string ("Hello Yellow" => "Helo Yw").
-
+// input mentioned --string ("Hello Yellow" => "Helo Yw").
 
 function removeDuplicate(str)
 {

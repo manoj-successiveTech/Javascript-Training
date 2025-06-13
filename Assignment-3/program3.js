@@ -10,7 +10,8 @@
 //      *  *
 //        *
 
-function displayDiamondPattern() {
+function displayDiamondPattern() 
+{
     let pattern = '';
     const n = 5; // Number of rows for the upper part of the diamond
 
