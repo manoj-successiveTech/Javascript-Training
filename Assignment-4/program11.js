@@ -1,6 +1,7 @@
 // 11. Write a program to sort an array (bubble sort)
 
-function bubbleSort(arr) {
+function bubbleSort(arr) 
+{
   let n = arr.length;
   for (let i = 0; i < n - 1; i++) {
     for (let j = 0; j < n - 1 - i; j++) {

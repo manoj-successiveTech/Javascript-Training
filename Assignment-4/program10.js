@@ -24,7 +24,9 @@ let subArrays = userInput.split('], [').map(subArray => {
 });
 
 // Handle cases where the input might not be in the expected format
-if (subArrays.length === 1 && subArrays[0].length === 0) {
+
+if (subArrays.length === 1 && subArrays[0].length === 0) 
+{
   alert("Invalid input. Please enter a valid array of arrays.");
   subArrays = []; // Default to an empty array if parsing fails
 }

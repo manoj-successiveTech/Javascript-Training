@@ -3,7 +3,8 @@
 function intersectionArray(arr1, arr2) 
 {
   let result = [];
-  for (var i = 0; i < arr1.length; i++) {
+  for (var i = 0; i < arr1.length; i++) 
+  {
     // Check if arr1[i] is also in arr2 and not already in the result array
     if (arr2.indexOf(arr1[i]) !== -1 && result.indexOf(arr1[i]) === -1) {
       result.push(arr1[i]);
