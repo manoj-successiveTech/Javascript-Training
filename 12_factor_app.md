@@ -4,7 +4,7 @@
 
 ->The Twelve-Factor App methodology provides guidelines for building robust and scalable applications, especially cloud-native ones. These principles focus on simplicity, standardization, and flexibility to facilitate continuous deployment and efficient resource utilization. 
 
-Twelve Preinciples are:-
+Twelve Principles are:-
 
 1). Codebase: Use a single codebase tracked in revision control, with many deploys. 
 explanation:- Your entire application should live in a single version-controlled repository (like Git). You use this same codebase to build and deploy to different environments (development, staging, production).

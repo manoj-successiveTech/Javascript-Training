@@ -2,6 +2,7 @@
 
 function calculator(a, b, operator) 
 {
+  
   if (operator === '+') 
     {
     return a + b;

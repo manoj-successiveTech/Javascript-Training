@@ -10,6 +10,7 @@ Output: { 'a': 1, 'b.c': 2, 'b.d.0': 3, 'b.d.1': 4 }  */
 // Function to flatten a nested object.
 
 function flattenObject(obj) 
+
 {
   // Create a result object to store the flattened values.
   let result = {};

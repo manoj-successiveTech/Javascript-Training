@@ -12,27 +12,35 @@ class Person {
     return `${this.firstName} ${this.lastName}`;
   }
 
-  // Static method since averageAge doesn't depend on one instance
-
-  static averageAge(array)
-  {
-    const total = array.reduce((sum, obj) => sum + obj.age, 0);
-    return total / array.length;
+  // Static method to calculate the average age of an array of Person objects
+  static averageAge(people) {
+    if (people.length === 0) return 0;
+    const totalAge = people.reduce((sum, person) => sum + person.age, 0);
+    return totalAge / people.length;
   }
 }
 
-// Create multiple Person instances
-const obj1 = new Person("Manoj", "Kumar", 25);
-const obj2 = new Person("Anany", "Morye", 22);
-const obj3 = new Person("Vishal", "Mishra", 28);
+// Function to get user input and create Person objects
+function createPersons() {
+  const persons = [];
+  for (let i = 0; i < 3; i++) {
+    const firstName = prompt(`Enter first name for person ${i + 1}:`);
+    const lastName = prompt(`Enter last name for person ${i + 1}:`);
+    const age = parseInt(prompt(`Enter age for person ${i + 1}:`), 10);
+    persons.push(new Person(firstName, lastName, age));
+  }
+  return persons;
+}
 
-// Get full name of obj1
-const fullName = obj1.fullName();
+// Create multiple Person instances based on user input
+const persons = createPersons();
 
-// Call averageAge as a static method on the class
-const average = Person.averageAge([obj1, obj2, obj3]);
+// Get full name of the first person
+const fullName = persons[0].fullName();
 
-// Output the full name & average age
+// Calculate the average age of all persons
+const averageAge = Person.averageAge(persons);
 
-console.log("The full name is::", fullName);  
-console.log("The final output is::" ,average);  
+// Output the full name and average age using alert
+alert(`The full name of the first person is: ${fullName}`);
+alert(`The average age of all persons is: ${averageAge}`);

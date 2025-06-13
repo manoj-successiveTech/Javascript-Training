@@ -1,4 +1,4 @@
-----Assignment 2 (3rd June) ---- 
+                        ----Assignment 2 (3rd June) ---- 
 
 1. Write a program to give a random output between 1 to 10 (AC: 2 simultaneous answers could not be same)
 2. Write a function to take input(age, name, phone no.) from user and display it

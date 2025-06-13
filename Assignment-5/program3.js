@@ -1,6 +1,5 @@
 // 3. Write a program to remove all the id key from array of object ({name:"John", age:27, id:1})
 
-
 let people = [
   { name: "John", age: 27, id: 1 },    // initiate the array with 'id' key
   { name: "Manoj", age: 25, id: 2 },

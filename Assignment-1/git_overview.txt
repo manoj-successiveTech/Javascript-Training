@@ -1,6 +1,6 @@
 
 
----------- Git and Github ,Git config --------------
+---------- Git and Github ,Git configuration --------------
 
 --GIT---
 

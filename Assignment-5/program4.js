@@ -2,7 +2,8 @@
 
 // Deep clone function using structuredClone
 
-function deepClone(obj) {
+function deepClone(obj) 
+{
   return structuredClone(obj);
 }
 

@@ -1,11 +1,13 @@
 /* 2. Create a class Shape with properties width and height and methods getArea().Create two classes Rectangle and Triangle that inherit from the Shape class 
 and implement the getArea() method for their respective shapes.(by inheritance) */
 
-// input user using prompt & for output using alert using alert
+// 2. Create a class Shape with properties width and height and methods getArea(). Create two classes Rectangle and Triangle that inherit from the Shape class and implement the getArea() method for their respective shapes.
+
 
 
 class Shape {
-  constructor(width, height) {
+  constructor(width, height) 
+  {
     this.width = width;
     this.height = height;
   }
@@ -30,14 +32,7 @@ class Triangle extends Shape {
   }
 }
 
-// Take input from the user
-const width = parseFloat(prompt("Enter the width:"));
-const height = parseFloat(prompt("Enter the height:"));
-
-// Create objects
-const rectObj = new Rectangle(width, height);
-const triangleObj = new Triangle(width, height);
-
-// Calculate and display the area
-alert("The final output of Rectangle:: " + rectObj.getArea());     // Final output of Rectangle
-alert("The final output of Triangle:: " + triangleObj.getArea());  // Final output of Triangle
+const rectObj = new Rectangle(2, 4);
+const triangleObj = new Triangle(2, 4);
+console.log("The final output of Rectangle::" , rectObj.getArea());
+console.log("The final output of Triangle::" ,triangleObj.getArea());
