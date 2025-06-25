@@ -11,7 +11,9 @@ then it will print 10 for 10 times. Instead we can use let for declaring i, sinc
 block scoped */
 
 // Modified Code
-for (let i = 0; i < 10; i++) {
+
+for (let i = 0; i < 10; i++) 
+{
   setTimeout(function () {
     console.log(i);
   }, 1000);

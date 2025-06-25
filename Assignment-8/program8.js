@@ -14,11 +14,13 @@
 
 // Modified Code
 
-function Person(name, age) {
+function Person(name, age) 
+{
   // Constructor function
   this.name = name;
   this.age = age;
 }
+
 // Inside the constructor, the this keyword refers to the new object being created.
 Person.prototype.getDetails = function () {
   console.log(this.name + " is " + this.age + " years old");

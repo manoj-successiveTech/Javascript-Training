@@ -24,8 +24,8 @@ const promise = new Promise((resolve, reject) => {
     reject("Data received");
   }, 1000);
 });
-promise
-  .then((data) => {
+
+promise.then((data) => {
     console.log(data);
   })
   .catch((error) => {

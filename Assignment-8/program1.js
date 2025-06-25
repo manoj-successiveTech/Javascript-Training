@@ -9,7 +9,8 @@ the condition as i<myArray.length
 */
 // Modified Code 
 
-const myArray = [1, 2, 3, 4];
-for (let i = 0; i < myArray.length; i++) {
+let myArray = [1, 2, 3, 4];
+for (let i = 0; i < myArray.length; i++) 
+{
   console.log(myArray[i]);
 }

@@ -19,14 +19,14 @@ So we should apply the check for !isNaN(myNumber) just to verify that result is 
 
 // Modified Code 
 
-const myString = 'hello world';
+let myString = 'hello world';
 if (myString.length > 0) {
     console.log('The length of the string is: ' + myString.length);
 } else {
     console.log('The string is empty');
 }
 
-const myNumber = parseInt(myString);
+let myNumber = parseInt(myString);
 if (!isNaN(myNumber)) {
    console.log('The number is: ' + myNumber);
 } else {

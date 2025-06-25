@@ -8,7 +8,7 @@
 
 // Modified Code 
 
-const myObject = { name: 'John', age: 30 };
+let myObject = { name: 'John', age: 30 };
 for (const property in myObject) {
    console.log(property + ': ' + myObject[property]);
 }
