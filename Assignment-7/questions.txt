@@ -1,0 +1,19 @@
+----------- Assignment-7 ------------------
+
+Description
+
+1. Give an example of using a callback function to handle an asynchronous operation in JavaScript (Use any open api to make a call)
+
+2. Give an example of using multiple callback functions in a single function in JavaScript.
+
+3. Convert a callback-based API to a Promise-based API (function fetchData(callback) { setTimeout(() => { callback(null, "Data fetched successfully"); }, 1000); })
+
+4. Write a program to implement a Promise-based rate limiter, that limits the number of concurrent requests to a certain number
+
+5.  Write a program to implement a Promise-based task queue, that processes tasks in a specified order, with a specified concurrency limit
+
+6. Implement a function that returns a resolved Promise after a specified delay using async/await.
+
+7. Create a function that performs multiple asynchronous operations in parallel using async/await and waits for all of them to complete before returning the results.
+
+8. Create a function that fetches data from multiple APIs in parallel and then performs some operation on the combined data, using async/await.
