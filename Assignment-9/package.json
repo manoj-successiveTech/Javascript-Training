@@ -1,0 +1,17 @@
+{
+  "dependencies": {
+    "lodash": "4.17.21"
+  },
+  "name": "assignment-9",
+  "version": "1.0.0",
+  "description": "Q1. create repo and add Readme.md file",
+  "main": "question-2.js",
+  "devDependencies": {},
+  "type": "module",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "keywords": [],
+  "author": "",
+  "license": "ISC"
+}
