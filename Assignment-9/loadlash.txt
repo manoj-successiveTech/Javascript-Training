@@ -1,0 +1,28 @@
+Q1. create repo and add Readme.md file
+
+Lodash
+Lodash is a popular JavaScript utility library that provides helpful methods for common programming tasks, such as working with arrays, objects, functions, and more. It offers a robust and optimized set of utilities that help make JavaScript development easier, cleaner, and more efficient.
+
+Features
+Modular: Lodash is split into smaller modules, allowing you to include only the functions you need in your project, reducing bundle size.
+Performance: Lodash is optimized for performance, making it an ideal choice for high-performance applications.
+Cross-platform: Works seamlessly in both Node.js and browser environments.
+Comprehensive: Lodash includes over 200 methods for dealing with arrays, objects, collections, strings, functions, and utilities.
+Installation
+You can install Lodash using npm, yarn, or via CDN.
+
+Using npm:
+npm install lodash
+
+Using CDN:
+<script src="https://cdn.jsdelivr.net/npm/lodash@4.17.21/lodash.min.js"></script>
+Lodash contains a wide array of utility functions that help with common tasks such as:
+Array Function: _.chunk(), _.flatten(), _.uniq(), _.difference(), etc.
+
+Collection Functions: _.each(), _.map(), _.filter(), _.reduce(), etc.
+
+Object Functions: _.clone(), _.merge(), _.get(), _.set(), etc.
+
+String Functions: _.capitalize(), _.camelCase(), _.kebabCase(), _.escape(), etc.
+
+Utility Functions: _.debounce(), _.throttle(), _.once(), _.identity(), etc.

@@ -1,0 +1,91 @@
+--------------- Assignment 8 ----------------------
+
+Description
+
+Find Error in below questions and rectify them
+
+1. let myArray = [1, 2, 3, 4];
+for (let i = 0; i <= myArray.length; i++) {
+   console.log(myArray[i]);
+}
+
+2. let myObject = { name: 'John', age: 30 };
+for (property in myObject) {
+   console.log(property + ': ' + myObject.property);
+}
+
+3. let myArray = [1, 2, 3, 4];
+for (let i = 0; i < myArray.length; i++) {
+   console.log('The value at index ' + i + ' is: ' + myArray[i]);
+}
+
+let total = 0;
+myArray.forEach(function(element) { total += element; });
+console.log('The total of all elements in the array is: ' + total);
+
+4.let myString = 'hello world';
+if (myString.length > 0) {
+    console.log('The length of the string is: ' + myString.length);
+} else {
+    console.log('The string is empty');
+}
+
+let myNumber = parseInt(myString);
+if (myNumber) {
+   console.log('The number is: ' + myNumber);
+} else {
+   console.log('The value is not a number');
+}
+
+5. let myArray = [1, 2, 3, 4];
+for (let i = 0; i < myArray.length; i++) {
+   console.log(myArray[i]);
+}
+
+let myNumber = myArray[5];
+if (myNumber) {
+   console.log('The number is: ' + myNumber);
+} else {
+   console.log('The number is undefined');
+}
+
+6. var person = { name: "John Doe", age: 30, getDetails: function() { console.log(this.name + " is " + this.age + " years old"); } };
+var getPersonDetails = person.getDetails;
+getPersonDetails();
+
+7. for (var i = 0; i < 10; i++) {
+setTimeout(function() { console.log(i); }, 1000); }
+
+8. function Person(name, age) { this.name = name; this.age = age; }
+Person.prototype.getDetails = function() {
+   console.log(this.name + " is " + this.age + " years old");
+};
+var person = new Person("John Doe", 30);
+delete person.name;
+person.getDetails();
+
+9.function Person(name, age) { this.name = name; this.age = age; }
+var person = Person("John Doe", 30);
+console.log(person.name);
+
+10.function getData(callback) {
+   setTimeout(function() { callback([1, 2, 3, 4, 5]); }, 1000);
+}
+getData(function(data) {
+   console.log(data.length);
+});
+
+11. var promise = new Promise(function(resolve, reject) {
+   setTimeout(function() { resolve("Data received"); }, 1000);
+});
+promise.then(function(data) {
+   console.log(data);
+}, function(error) {
+   console.log(error);
+});
+
+12. async function getData() {
+   setTimeout(function() { return [1, 2, 3, 4, 5]; }, 1000); }
+getData().then(function(data) {
+   console.log(data);
+});
